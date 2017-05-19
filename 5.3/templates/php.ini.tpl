@@ -643,7 +643,7 @@ html_errors = {{ getenv "PHP_HTML_ERRORS" "On" }}
 ;error_log = php_errors.log
 ; Log errors to syslog (Event Log on NT, not valid in Windows 95).
 ;error_log = syslog
-error_log = /proc/self/fd/2
+error_log =  {{ getenv "PHP_ERROR_LOG" "/proc/self/fd/2" }}
 
 ;windows.show_crt_warning
 ; Default value: 0

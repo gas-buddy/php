@@ -20,6 +20,7 @@
 | PHP_DATE_TIMEZONE                     | UTC       | |
 | PHP_DISPLAY_ERRORS                    | On        | |
 | PHP_DISPLAY_STARTUP_ERRORS            | On        | |
+| PHP_ERROR_LOG                         | /proc/self/fd/2 | |
 | PHP_ERROR_REPORTING                   | E_ALL     | |
 | PHP_FPM_LOG_LEVEL                     | notice    | |
 | PHP_FPM_CLEAR_ENV                     | no        | 5.3 N/A |
